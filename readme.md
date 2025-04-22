@@ -2,6 +2,15 @@
 
 A simple library providing TSX components for easy integration with Flowbite CSS framework in server-side rendering environments.
 
+## Roadmap
+
+The following components are planned for **v1.0.0**:
+
+* Sidebar
+* Inputs
+* Tables
+* Pagination
+
 ## Installation (Example)
 
 (coming soon)
