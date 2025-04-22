@@ -4,6 +4,7 @@ A simple library providing TSX components for easy integration with Flowbite CSS
 
 ## Installation (Example)
 
+(coming soon)
 ```bash
 npm install tsx-flowbite # or yarn add tsx-flowbite
 ```
