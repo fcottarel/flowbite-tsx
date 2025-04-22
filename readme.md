@@ -1,19 +1,25 @@
 # TSX Flowbite
 
-A simple library providing TSX components for easy integration with Flowbite CSS framework in server-side rendering environments.
+A simple library providing TSX components for easy integration with the Flowbite CSS framework in server-side rendering environments. This package, in our case, is used to render tsx from backend in a project that uses kitaJS for rendering tsx. The goal of this package is to be used with htmx or unpoly, and keep rendering on the server-side to keep projects simple and typed.
 
 ## Roadmap
 
 The following components are planned for **v1.0.0**:
 
-* Sidebar
-* Inputs
-* Tables
-* Pagination
+* V0.1.0 - Inputs
+* V0.2.0 - Sidebar
+* V0.3.0 - Tables
+* V0.3.0 - Pagination
 
 ## Installation (Example)
 
-(coming soon)
+### Requirement
+You have to install tailwind on your project, and if necessary add the following line to your main CSS file. This will allow Tailwind to scan the components for classes:
+
+```css
+@source "../../node_modules/flowbite-tsx";
+```
+
 ```bash
 npm install tsx-flowbite # or yarn add tsx-flowbite
 ```
