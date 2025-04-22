@@ -7,8 +7,7 @@
   },
   "scripts": {
     "dev": "npx tsx watch --tsconfig examples/tsconfig.json examples/index.ts ",
-    "build": "tsc",
-    "prepack": "npm run build"
+    "build": "tsc"
   },
   "exports": {
     ".": "./build/index.js"
@@ -22,10 +21,10 @@
     "@kitajs/ts-html-plugin": "^4.1.1",
     "@types/node": "^22.14.1",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "@kitajs/ts-plugin": "^1.1.23"
   },
   "dependencies": {
-    "@kitajs/ts-plugin": "^1.1.23",
     "tailwind-merge": "^3.2.0"
   }
 }
