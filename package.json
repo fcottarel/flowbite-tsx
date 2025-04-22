@@ -1,6 +1,6 @@
 {
   "name": "flowbite-tsx",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/fcottarel/flowbite-tsx"
@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "tailwind-merge": "^3.2.0"
-  }
+  },
+  "files": [
+    "build"
+  ]
 }
