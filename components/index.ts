@@ -1,3 +1,3 @@
-export * from "./Button"
-export * from "./Badge"
-export * from "./Alerts"
+export * from "./Button/index.js"
+export * from "./Badge/index.js"
+export * from "./Alerts/index.js"

@@ -1,4 +1,4 @@
-import { Colors, Sizes } from "../types"
+import { Colors, Sizes } from "../types.js"
 
 export type ButtonTheme = {
     base: string

@@ -1,4 +1,4 @@
-import { Colors } from "../types"
+import { Colors } from "../types.js"
 
 export type AlertTheme = {
     base: string

@@ -1,7 +1,7 @@
 import { Children, createElement } from "@kitajs/html";
-import { Colors } from "../types";
+import { Colors } from "../types.js";
 import { twMerge } from "tailwind-merge";
-import { AlertTheme } from "./Theme";
+import { AlertTheme } from "./Theme.js";
 
 export type AlertProps = {
     color?: keyof Colors

@@ -1,10 +1,10 @@
-import { Colors, Sizes } from "../types"
+import { Colors, Sizes } from "../types.js"
 
 export type BadgeThemeTypes = {
     base: string,
     color: Colors,
     outline: Colors
-    size: Pick<Sizes, "sm" & "xs">
+    size: Pick<Sizes, "sm" | "xs">
 }
 
 export const BadgeTheme: BadgeThemeTypes = {

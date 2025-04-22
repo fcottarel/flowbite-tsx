@@ -1,3 +1,3 @@
-export { ButtonBase } from "./ButtonBase"
-export { Button } from "./Button"
-export { ButtonGroup } from "./ButtonGroup"
+export { ButtonBase } from "./ButtonBase.js"
+export { Button } from "./Button.js"
+export { ButtonGroup } from "./ButtonGroup.js"

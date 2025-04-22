@@ -1,7 +1,7 @@
 import { Children, createElement } from "@kitajs/html"
-import { BadgeTheme } from "./Theme"
+import { BadgeTheme } from "./Theme.js"
 import { twMerge } from "tailwind-merge"
-import { Colors, Sizes } from "../types"
+import { Colors, Sizes } from "../types.js"
 
 export interface BadgeProps {
     children: Children

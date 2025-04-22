@@ -1,8 +1,8 @@
 import { Children } from "@kitajs/html"
 import { twMerge } from "tailwind-merge"
-import { Colors, Sizes } from "../types"
-import { replaceHtmlClasses } from "../helpers"
-import { ButtonTheme } from "./Theme"
+import { Colors, Sizes } from "../types.js"
+import { replaceHtmlClasses } from "../helpers.js"
+import { ButtonTheme } from "./Theme.js"
 
 interface ButtonGroupProps {
     children: Children[]

@@ -10,8 +10,9 @@
     "build": "tsc"
   },
   "exports": {
-    ".": "./build/components/index.js"
+    ".": "./build/index.js"
   },
+  "types": "./build/index.d.ts",
   "author": "Clic'r",
   "license": "ISC",
   "description": "",
