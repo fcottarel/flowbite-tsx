@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "outDir": "./build",
+      "jsx": "react-jsx",
+      "jsxImportSource": "@kitajs/html",  
+      "declaration": true
+    },
+    "exclude": ["examples", "node_modules", "build"]
+  }
+  
