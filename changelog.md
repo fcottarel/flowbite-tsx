@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2025-04-25
+
+### Added
+
+* **Components:**
+    * Added `Navbar` component documentation and implementation.
+    * Added `Sidebar` component documentation and implementation.
+
 ## 0.1.0 - 2025-04-23
 
 ### Added

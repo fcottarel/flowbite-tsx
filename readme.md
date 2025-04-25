@@ -363,10 +363,65 @@ Standard toggle switch input (visually similar to a checkbox). Requires Flowbite
 </div>
 ```
 
+#### Sidebar
+
+Provides a vertical navigation sidebar structure. Requires Flowbite's JavaScript for collapse functionality.
+
+**Sub-components:**
+* `<Sidebar>`: The main container.
+* `<SidebarLogo>`: Displays a logo at the top (optional). Requires `href` and `src` props.
+* `<SidebarItems>`: Container for the navigation items.
+* `<SidebarItem>`: A single navigation link. Requires `href`. Can contain text or icons.
+* `<SidebarCollapse>`: A collapsible group of items. Requires `label`. Contains nested `<SidebarItem>`s.
+
+**Basic Usage Example:**
+
+```html
+<Sidebar aria-label="Main navigation sidebar">
+    <SidebarLogo href="/" src="[https://flowbite.com/docs/images/logo.svg](https://flowbite.com/docs/images/logo.svg)" alt="Flowbite Logo">
+        Flowbite TSX
+    </SidebarLogo>
+    <SidebarItems>
+        <SidebarItem href="/dashboard" icon={/* Optional icon component */}>
+            Dashboard
+        </SidebarItem>
+        <SidebarCollapse label="E-commerce" icon={/* Optional icon component */}>
+            <SidebarItem href="/products">Products</SidebarItem>
+            <SidebarItem href="/orders">Orders</SidebarItem>
+            <SidebarItem href="/customers">Customers</SidebarItem>
+        </SidebarCollapse>
+        <SidebarItem href="/users" icon={/* Optional icon component */}>
+            Users
+        </SidebarItem>
+        <SidebarItem href="/login" icon={/* Optional icon component */}>
+            Sign In
+        </SidebarItem>
+    </SidebarItems>
+</Sidebar>
+```
+
+#### Navbar
+
+Provides a basic container for a navigation header.
+
+**Sub-components (Currently Available):**
+* `<Navbar>`: The main container. Can accept `fluid` (boolean) and `rounded` (boolean) props.
+* `<NavbarLogo>`: Displays a logo image directly within the Navbar. Requires `src`, `alt`, and `href`.
+
+**Basic Usage Example:**
+
+```html
+<Navbar fluid={true} rounded={true}>
+  <NavbarLogo href="/" src="[https://flowbite.com/docs/images/logo.svg](https://flowbite.com/docs/images/logo.svg)" alt="Flowbite Logo">
+      Flowbite TSX
+  </NavbarLogo>
+  {/* Other Navbar components like Toggle and Collapse will be added later */}
+</Navbar>
+```
+
 ## Roadmap
 
 The following components are planned for **v1.0.0**:
 
-* Sidebar
 * Tables
 * Pagination
